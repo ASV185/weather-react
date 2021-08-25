@@ -14,7 +14,7 @@ axios.get(apiUrl).then(handleResponse);
 return (
     <div className={"row"}>
             <div className={"item"}>
-                <Loader type="bubble-scale" bgColor={"#FFFFFF"}  size={100} />
+                <Loader type="bubble-scale" bgColor={"blue"}  size={100} />
             </div>
     </div>
 );
