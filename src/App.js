@@ -1,16 +1,30 @@
 import React from "react";
-import './App.css';
-import Weather from "./Weather";
-
+import ReactDOM from "react-dom";
+import Information from "./Information";
+import Form from "./Form";
+import Image from "./Image";
+import Units from "./Units";
 
 function App() {
-
   return (
-    <div className="App-header">
-        <h1>
-          Hello from React
-        </h1> 
-      <Weather city="San Francisco"/>
+    <div className="Container">
+      <div className="App">
+        <link
+          rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://kitfontawesome.com/df69181b0b.js"
+          crossorigin="anonymous"
+        ></script>
+        <Units />
+        <Image />
+        <Form />
+        <Information />
+        <div id="root"></div>
+      </div>
     </div>
   );
 }
