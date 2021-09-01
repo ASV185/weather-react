@@ -15,10 +15,6 @@ function App() {
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous"
         />
-        <script
-          src="https://kitfontawesome.com/df69181b0b.js"
-          crossorigin="anonymous"
-        ></script>
         <Units />
         <Image />
         <Form />
