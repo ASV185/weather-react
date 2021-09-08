@@ -1,6 +1,5 @@
 import React from "react";
 import Weather from "./Weather";
-import Form from "./Form";
 import Image from "./Image";
 import Units from "./Units";
 import "./App.css";
@@ -18,7 +17,6 @@ function App() {
         </footer>
         <Units />
         <Image />
-        <Form />
       
         <div id="root"></div>
       </div>
