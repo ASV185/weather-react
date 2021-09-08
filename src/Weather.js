@@ -1,7 +1,7 @@
 import "./index";
-import "./Information.css";
+import "./Weather.css";
 
-export default function Information() {
+export default function Weather() {
   let weather = {
     city: "El Paso",
     date: "Sunday, July 2021",
@@ -15,7 +15,7 @@ export default function Information() {
   };
 
   return (
-    <div className="Information">
+    <div className="Weather">
       <h1>{weather.city}</h1>
 
       <ul>

@@ -1,5 +1,5 @@
 import React from "react";
-import Information from "./Information";
+import Weather from "./Weather";
 import Form from "./Form";
 import Image from "./Image";
 import Units from "./Units";
@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="Container">
       <div className="App">
+        <Weather/>
         <footer>
           <a href="https://github.com/ASV185/my-weather-app-project">
             Open-source code {""}
@@ -18,7 +19,7 @@ function App() {
         <Units />
         <Image />
         <Form />
-        <Information />
+      
         <div id="root"></div>
       </div>
     </div>

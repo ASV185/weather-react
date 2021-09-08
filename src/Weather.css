@@ -1,4 +1,4 @@
-.Information .humidity {
+.Weather .humidity {
   list-style: none;
   display: block;
   text-align: right;
@@ -16,7 +16,7 @@
   text-shadow: 2px 2px 2px black;
 }
 
-.Information .wind {
+.Weather .wind {
   list-style: none;
   display: block;
   text-align: right;
@@ -34,7 +34,7 @@
   text-shadow: 2px 2px 2px black;
 }
 
-.Information .description {
+.Weather .description {
   list-style: none;
   display: block;
   color: rgb(233, 8, 121);
@@ -53,7 +53,7 @@
   text-shadow: 2px 2px 2px black;
 }
 
-.Information .time {
+.Weather .time {
   list-style: none;
   display: block;
   margin: 0;
@@ -68,7 +68,7 @@
   text-shadow: 2px 2px 2px black;
 }
 
-.Information .date {
+.Weather .date {
   list-style: none;
   display: block;
   margin: 0;
@@ -84,7 +84,7 @@
   text-shadow: 2px 2px 2px black;
 }
 
-.Information .lowTemp {
+.Weather .lowTemp {
   list-style: none;
   color: black;
   font-size: 25px;
@@ -100,7 +100,7 @@
   left: 740px;
 }
 
-.Information .highTemp {
+.Weather .highTemp {
   list-style: none;
   font-size: 25px;
   color: black;
@@ -116,7 +116,7 @@
   left: 740px;
 }
 
-.Information .Feels-like {
+.Weather .Feels-like {
   list-style: none;
   font-size: 25px;
   color: black;
@@ -132,7 +132,7 @@
   left: 740px;
 }
 
-.Information h1 {
+.Weather h1 {
   list-style: none;
   display: block;
   margin: 0;
@@ -149,7 +149,7 @@
   text-shadow: 2px 2px 2px black;
 }
 
-.Information span button {
+.Location span button {
   display: block;
   margin: 0;
   position: fixed;
@@ -164,7 +164,7 @@
   text-shadow: 2px 2px 2px black;
 }
 
-.Information h4 {
+.Weather h4 {
   color: black;
   font-family: "Castoro", serif;
   position: fixed;
