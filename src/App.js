@@ -3,6 +3,7 @@ import Information from "./Information";
 import Form from "./Form";
 import Image from "./Image";
 import Units from "./Units";
+import "./App.css";
 
 function App() {
   return (
@@ -14,6 +15,12 @@ function App() {
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous"
         />
+        <footer>
+          <a href="https://github.com/ASV185/my-weather-app-project">
+            Open-source code {""}
+          </a>
+          by Amanda Ventura
+        </footer>
         <Units />
         <Image />
         <Form />

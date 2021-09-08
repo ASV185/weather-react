@@ -176,14 +176,3 @@
   text-decoration: none;
   text-shadow: 2px 2px 2px white;
 }
-
-.Information h6 {
-  font-family: "Castoro", serif;
-  color: navy;
-  font-weight: bold;
-  text-align: right;
-  font-size: 20px;
-  right: 340px;
-  bottom: 50px;
-  position: fixed;
-}

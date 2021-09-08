@@ -40,15 +40,6 @@ export default function Information() {
           </button>
         </span>
       </div>
-
-      <div className="open-source">
-        <h6>
-          <a href="https://github.com/ASV185/my-weather-app-project">
-            Open-source code {""}
-          </a>
-          by Amanda Ventura
-        </h6>
-      </div>
     </div>
   );
 }

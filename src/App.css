@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.App footer {
+  font-family: "Castoro", serif;
+  color: navy;
+  font-weight: bold;
+  text-align: right;
+  font-size: 20px;
+  right: 340px;
+  bottom: 50px;
+  position: fixed;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
