@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="Container">
       <div className="App">
-        
         <footer>
           <a href="https://github.com/ASV185/my-weather-app-project">
             Open-source code {""}
