@@ -1,0 +1,55 @@
+.Weather .temperature {
+  font-weight: bold;
+  line-height: 64px;
+}
+
+.Weather .card {
+  display: block;
+  margin: 0;
+  top: 150px;
+  position: fixed;
+  right: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  opacity: 0.85;
+  background-color: #95cf94;
+}
+
+.Weather li {
+  list-style: none;
+}
+
+.Weather .city {
+  font-family: "Libre Baskerville", serif;
+  font-size: 45px;
+}
+
+.Weather .Humidity {
+  font-family: "Kaisei Decol", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Weather .Wind {
+  font-family: "Kaisei Decol", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Weather .Precipitation {
+  font-family: "Kaisei Decol", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Weather .Date {
+  font-family: "Kaisei Decol", serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.Weather .description {
+  font-family: "Kaisei Decol", serif;
+  font-size: 17px;
+  font-weight: bold;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Image.css";
+import Weather from "./Weather";
 
 
 export default function Image() {
@@ -12,6 +13,7 @@ export default function Image() {
           alt="grassMountains Logo"
           width={1200}
         />
+        <Weather/>
       </div>
     </div>
   );

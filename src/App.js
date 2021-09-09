@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "./Image";
 import "./App.css";
-import Weather from "./Weather";
+
 
 function App() {
   return (
     <div className="Container">
       <div className="App">
         <footer>
-          <a href="https://github.com/ASV185/my-weather-app-project">
+          <a href="https://github.com/ASV185/weather-react">
             Open-source code {""}
           </a>
           by Amanda Ventura
@@ -16,7 +16,6 @@ function App() {
         <div id="root"></div>
       </div>
       <Image />
-      <Weather/>
     </div>
   );
 }
