@@ -1,16 +1,13 @@
 .Image img {
-  display: block;
-  margin: 0;
-  text-align: center;
-  size: 500px;
-  padding: 20px 30px;
-  border-radius: 35px;
+  size: 1200px;
+  border-radius: 15px;
   position: static;
 }
 
 .Container {
-  display: block;
-  margin: 0;
-  text-align: center;
-  padding: 10px 50px;
+  position: static;
+  margin-left: none;
+  margin-right: none;
+  padding-left: none;
+  padding-right: none;
 }

@@ -7,10 +7,10 @@ export default function Image() {
     <div className="Container">
       <div className="Image">
         <img
-          src="images/day sky.jpg"
-          className="DaySky"
-          alt="Daysky Logo"
-          width={1000}
+          src="images/grass-mountains.jpg"
+          className="grassMountains"
+          alt="grassMountains Logo"
+          width={1200}
         />
       </div>
     </div>
