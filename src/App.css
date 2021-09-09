@@ -4,12 +4,12 @@
 
 .App footer {
   font-family: "Castoro", serif;
-  color: navy;
+  color: black;
   font-weight: bold;
   text-align: right;
   font-size: 20px;
-  right: 340px;
-  bottom: 50px;
+  right: 400px;
+  bottom: 20px;
   position: fixed;
 }
 
