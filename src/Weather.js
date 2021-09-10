@@ -1,8 +1,17 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Weather.css";
 import axios from "axios";
 
 export default function Weather(){
+    const[ready, setReady]=useState(false);
+    const[temperature, setTemperature]=useState(null);
+
+    function handleResponse(response){
+        setTemperature(response.data);
+        setReady(true);
+    }
+
+    if (ready){
     return(
       <div className="Weather">
         <div className="card"  >
@@ -47,7 +56,13 @@ export default function Weather(){
        </div>  
         
    </div>
-       
-        
     );
+}else{
+    const apiKey="03b710dce56cda3a371cb2ddd31580ad";
+    let city="El Paso";
+    let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    axios.get(apiUrl).then(handleResponse);
+    return "loading...";
+}
+       
 }
