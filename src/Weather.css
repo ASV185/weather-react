@@ -9,3 +9,9 @@
   opacity: 0.85;
   background-color: #95cf94;
 }
+
+.Weather canvas {
+  margin-right: 10px;
+  margin-top: 5px;
+  display: inline-block;
+}

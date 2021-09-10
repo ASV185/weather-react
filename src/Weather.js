@@ -14,15 +14,15 @@ export default function Weather(props){
             humidity: response.data.main.humidity,
             date: new Date(response.data.dt*1000),
             description: response.data.weather[0].description,
-            iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudly.png",
+            icon:response.data.weather[0].icon,
             wind: response.data.wind.speed,
-            city: response.data.name
+            city: response.data.name,
         });
     }
 
     function Search(){
-    const apiKey="03b710dce56cda3a371cb2ddd31580ad";
-    let city=`{props.data.city}`;
+    let apiKey="03b710dce56cda3a371cb2ddd31580ad";
+    let city=`{WeatherData.city}`;
     let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse); 
     }
@@ -57,9 +57,9 @@ export default function Weather(props){
                 </div>
             </div>
         </form>
-        </div>
-      
+
         <WeatherInfo data= {weatherData}/>
+        </div>
         </div>
     </div>
     );
