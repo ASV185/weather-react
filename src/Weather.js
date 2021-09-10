@@ -10,7 +10,7 @@ export default function Weather(props){
             ready: true,
             temperature: response.data.main.temp,
             humidity: response.data.main.humidity,
-            date: "Thursday 08:00",
+            date: newDate(response.data.dt*1000),
             description: response.data.weather[0].description,
             iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudly.png",
             wind: response.data.wind.speed,
