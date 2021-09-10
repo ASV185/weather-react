@@ -5,9 +5,10 @@ import WeatherInfo from "./WeatherInfo";
 
 export default function Weather(props){
     const[weatherData, setWeatherData]=useState({ready:false});
-    const[city, setCity]=useState(props.city);
+    const[city, setCity]=useState(props.defaultcity);
     
     function handleResponse(response){
+        console.log(response.data);
         setWeatherData({
             ready: true,
             temperature: response.data.main.temp,
@@ -16,20 +17,19 @@ export default function Weather(props){
             description: response.data.weather[0].description,
             icon:response.data.weather[0].icon,
             wind: response.data.wind.speed,
-            city: response.data.name,
+            city: response.data.name
         });
     }
 
-    function Search(){
+    function search(){
     let apiKey="03b710dce56cda3a371cb2ddd31580ad";
-    let city=`{WeatherData.city}`;
-    let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiUrl=`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse); 
     }
 
     function handleSubmit(event){
         event.preventDefault();
-        Search();
+        search();
     }
 
     function handleCityChange(event){
@@ -39,9 +39,8 @@ export default function Weather(props){
     if (weatherData.ready){
     return(
       <div className="Weather">
-        <div className="card"  >
-        <div className="card-body">
-            
+           <div className="card">
+            <div className="card-body">
             <form onSubmit={handleSubmit}>
             <div className="row">
                 <div className="col-9">
@@ -57,15 +56,15 @@ export default function Weather(props){
                 </div>
             </div>
         </form>
-
         <WeatherInfo data= {weatherData}/>
         </div>
         </div>
-    </div>
+      </div>  
     );
 }else{
-    Search();
-    return "loading...";
+    search();
+   return "loading...";
+    
 
 }
     
