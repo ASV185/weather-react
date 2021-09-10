@@ -1,8 +1,24 @@
 .Weather .temperature {
   font-weight: bold;
   line-height: 64px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 45px;
 }
 
+.Weather .unit {
+  font-size: 20px;
+  font-weight: 400px;
+  margin-left: 5px;
+  line-height: 64px;
+  position: relative;
+  bottom: 20px;
+}
+
+.Weather img {
+  height: 64px;
+  margin-right: 10px;
+  display: inline-block;
+}
 .Weather .card {
   display: block;
   margin: 0;
