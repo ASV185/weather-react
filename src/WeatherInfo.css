@@ -1,0 +1,60 @@
+.WeatherInfo .temperature {
+  font-weight: bold;
+  line-height: 64px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 45px;
+}
+
+.WeatherInfo .unit {
+  font-size: 20px;
+  font-weight: 400px;
+  margin-left: 5px;
+  line-height: 64px;
+  position: relative;
+  bottom: 20px;
+}
+
+.WeatherInfo img {
+  height: 64px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.WeatherInfo li {
+  list-style: none;
+}
+
+.WeatherInfo .city {
+  font-family: "Libre Baskerville", serif;
+  font-size: 45px;
+}
+
+.WeatherInfo .Humidity {
+  font-family: "Kaisei Decol", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.WeatherInfo .Wind {
+  font-family: "Kaisei Decol", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.WeatherInfo .Precipitation {
+  font-family: "Kaisei Decol", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.WeatherInfo .Date {
+  font-family: "Kaisei Decol", serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.WeatherInfo .description {
+  font-family: "Kaisei Decol", serif;
+  font-size: 17px;
+  font-weight: bold;
+}
