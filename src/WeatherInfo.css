@@ -8,15 +8,14 @@
 .WeatherInfo .unit {
   font-size: 20px;
   font-weight: 400px;
-  margin-left: 5px;
+  margin-left: none;
   line-height: 64px;
   position: relative;
-  bottom: 20px;
 }
 
 .WeatherInfo img {
   height: 64px;
-  margin-right: 10px;
+  margin-right: 0px;
   display: inline-block;
 }
 
@@ -37,7 +36,7 @@
 
 .WeatherInfo .Wind {
   font-family: "Kaisei Decol", serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -53,8 +52,8 @@
   font-weight: bold;
 }
 
-.WeatherInfo .description {
+.WeatherInfo .text-capitalize {
   font-family: "Kaisei Decol", serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
 }
