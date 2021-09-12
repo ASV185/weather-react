@@ -66,7 +66,7 @@ export default function Weather(props){
     return (
         <div className={"row"}>
             <div className={"item"}>
-                <Loader type="bubble-scale" bgColor={"#011B10"} title={"bubble-scale"} color={'#011B10'} size={100} />
+                <Loader bgColor={"#011B10"} title={"bubble-scale"} color={'#011B10'} size={100} />
             </div>
         </div>
     );
