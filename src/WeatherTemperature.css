@@ -1,0 +1,6 @@
+.WeatherTemperature .unit {
+  font-family: "Kaisei Decol", serif;
+  font-size: 12px;
+  font-weight: bold;
+  position: fixed;
+}
