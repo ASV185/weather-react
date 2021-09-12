@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import "./Weather.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import Loader from "react-js-loader";
 
 export default function Weather(props){
     const[weatherData, setWeatherData]=useState({ready:false});
@@ -62,9 +63,14 @@ export default function Weather(props){
     );
 }else{
     search();
-   return "loading...";
+    return (
+        <div className={"row"}>
+            <div className={"item"}>
+                <Loader type="bubble-scale" bgColor={"#011B10"} title={"bubble-scale"} color={'#011B10'} size={100} />
+            </div>
+        </div>
+    );
     
-
 }
     
 }
