@@ -6,8 +6,7 @@ import Weather from "./Weather";
 
 function App() {
   return (
-    <div className="Container">
-      <div className="App">
+    <div className="App">
         <Weather defaultcity="El Paso"/>
         <footer>
           <a href="https://github.com/ASV185/weather-react">
@@ -16,7 +15,6 @@ function App() {
           by Amanda Ventura
         </footer>
         <div id="root"></div>
-      </div>
       <Image />
     </div>
   );
