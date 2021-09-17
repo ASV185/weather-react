@@ -9,7 +9,7 @@ function App() {
     <div className="App">
         <Weather defaultcity="El Paso"/>
         <footer>
-          <a href="https://github.com/ASV185/weather-react">
+          <a href="https://github.com/ASV185/weather-react" target="_blank"rel="noopener noreferrer">
             Open-source code {""}
           </a>
           by Amanda Ventura
