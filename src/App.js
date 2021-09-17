@@ -8,15 +8,16 @@ function App() {
   return (
     <div className="App">
         <Weather defaultcity="El Paso"/>
-        <footer>
+        <div id="root"></div>
+      <Image />
+      <footer>
           <a href="https://github.com/ASV185/weather-react" target="_blank"rel="noopener noreferrer">
             Open-source code {""}
           </a>
           by Amanda Ventura
-        </footer>
-        <div id="root"></div>
-      <Image />
+    </footer>
     </div>
+    
   );
 }
 
