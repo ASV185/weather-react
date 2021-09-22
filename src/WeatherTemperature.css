@@ -2,8 +2,11 @@
   font-family: "Kaisei Decol", serif;
   font-size: 18px;
   font-weight: bold;
-  right: 720px;
-  bottom: 278px;
+  margin: 0;
+  display: block;
+  text-align: center;
+  left: 60px;
+  bottom: 70px;
 }
 
 .WeatherTemperature .temperature {

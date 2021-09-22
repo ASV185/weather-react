@@ -5,9 +5,10 @@
   top: 50px;
   position: fixed;
   right: 400px;
-  padding: 80px;
+  padding: 50px;
   border-radius: 25px;
   opacity: 0.85;
   background-color: #95cf94;
   max-width: 1100px;
+  text-align: center;
 }

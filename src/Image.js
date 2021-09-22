@@ -14,6 +14,12 @@ export default function Image() {
           width={1200}
         />
         <Weather/>
+        <footer>
+          <a href="https://github.com/ASV185/weather-react" target="_blank"rel="noopener noreferrer">
+            Open-source code {""}
+          </a>
+          by Amanda Ventura
+    </footer>
       </div>
     </div>
   );
