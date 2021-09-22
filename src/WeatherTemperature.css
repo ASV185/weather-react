@@ -2,7 +2,6 @@
   font-family: "Kaisei Decol", serif;
   font-size: 18px;
   font-weight: bold;
-  position: fixed;
   right: 720px;
   bottom: 278px;
 }
@@ -13,5 +12,4 @@
   display: block;
   bottom: 268px;
   right: 740px;
-  position: fixed;
 }
