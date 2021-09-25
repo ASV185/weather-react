@@ -18,7 +18,7 @@ export default function Image() {
             Open-source code {""}
           </a>
           by Amanda Ventura
-    </footer>
+          </footer>
         <Weather/>
       </div>
     </div>
