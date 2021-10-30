@@ -8,11 +8,32 @@
   margin: 0;
   display: block;
   font-family: "Castoro", serif;
-  color: black;
+  color: #1d4d3f;
   font-weight: bold;
   text-align: center;
   font-size: 20px;
   position: absolute;
-  top: 600px;
-  right: 450px;
+  text-shadow: 2px 2px 2px black;
+  top: 575px;
+  right: 330px;
+}
+
+.Image .photographer {
+  color: black;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.Image:hover {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.Image .link {
+  color: black;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.Image:hover {
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }

@@ -8,16 +8,23 @@ export default function Image() {
     <div className="Container">
       <div className="Image">
         <img
-          src="images/grass-mountains.jpg"
+          src="images/grassland.jpg"
           className="grassMountains"
           alt="grassMountains Logo"
-          width={1200}
+          width={900}
         />
           <footer>
           <a href="https://github.com/ASV185/weather-react" target="_blank"rel="noopener noreferrer">
             Open-source code {""}
           </a>
-          by Amanda Ventura
+          by Amanda Ventura and image from {""}
+          <span className="link">
+             unsplash.com {""}
+          </span>
+            from {""} 
+          <div className="photographer">
+            Ezra Jeffrey-Comeau
+          </div>
           </footer>
         <Weather/>
       </div>
