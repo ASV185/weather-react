@@ -1,4 +1,4 @@
-React Weather App
+ #weather-react
 
 This Weather App created with React uses an Openweather API to allow you to see the weather.
 
