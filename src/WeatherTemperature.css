@@ -1,16 +1,17 @@
 .WeatherTemperature .unit {
   font-family: 'Playfair Display SC',
   serif;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bold;
   margin: 0;
   display: block;
   text-align: center;
-  left: 60px;
-  bottom: 70px;
+  position: relative;
+  left: 69px;
+  bottom: 65px;
 }
 
 .WeatherTemperature .temperature {
-  font-size: 33px;
+  font-size: 65px;
   margin: 0;
 }
