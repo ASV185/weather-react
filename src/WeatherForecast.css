@@ -1,12 +1,20 @@
 .WeatherForecast {
   text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+  border-radius: 10px;
 }
 
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
+  font-family: 'Playfair Display SC',
+  serif;
 }
 
 .WeatherForecast-Day {
   font-weight: bold;
+  font-family: 'Playfair Display SC',
+  serif;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
 }

@@ -1,7 +1,8 @@
 .WeatherInfo .temperature {
   font-weight: bold;
   line-height: 64px;
-  font-family: "Libre Baskerville", serif;
+  font-family: 'Playfair Display SC',
+  serif;
   font-size: 45px;
 }
 
@@ -11,12 +12,8 @@
   margin-left: none;
   line-height: 64px;
   position: relative;
-}
-
-.WeatherInfo img {
-  height: 64px;
-  margin-right: 0px;
-  display: inline-block;
+  font-family: 'Playfair Display SC',
+  serif;
 }
 
 .WeatherInfo li {
@@ -24,36 +21,43 @@
 }
 
 .WeatherInfo .city {
-  font-family: "Libre Baskerville", serif;
+  font-family: 'Playfair Display SC',
+  serif;
   font-size: 45px;
+  font-weight: bolder;
 }
 
 .WeatherInfo .Humidity {
-  font-family: "Kaisei Decol", serif;
+  font-family: 'Playfair Display SC',
+  serif;
   font-size: 15px;
   font-weight: bold;
 }
 
 .WeatherInfo .Wind {
-  font-family: "Kaisei Decol", serif;
+  font-family: 'Playfair Display SC',
+  serif;
   font-size: 14px;
   font-weight: bold;
 }
 
 .WeatherInfo .Precipitation {
-  font-family: "Kaisei Decol", serif;
+  font-family: 'Playfair Display SC',
+  serif;
   font-size: 15px;
   font-weight: bold;
 }
 
 .WeatherInfo .Date {
-  font-family: "Kaisei Decol", serif;
+  font-family: 'Playfair Display SC',
+  serif;
   font-size: 17px;
   font-weight: bold;
 }
 
 .WeatherInfo .text-capitalize {
-  font-family: "Kaisei Decol", serif;
+  font-family: 'Playfair Display SC',
+  serif;
   font-size: 16px;
   font-weight: bold;
 }

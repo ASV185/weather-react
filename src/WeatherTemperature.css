@@ -1,5 +1,6 @@
 .WeatherTemperature .unit {
-  font-family: "Kaisei Decol", serif;
+  font-family: 'Playfair Display SC',
+  serif;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
@@ -12,7 +13,4 @@
 .WeatherTemperature .temperature {
   font-size: 33px;
   margin: 0;
-  display: block;
-  bottom: 268px;
-  right: 740px;
 }
