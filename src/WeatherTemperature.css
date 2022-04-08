@@ -14,4 +14,6 @@
 .WeatherTemperature .temperature {
   font-size: 65px;
   margin: 0;
+  font-family: 'Playfair Display SC',
+  serif;
 }

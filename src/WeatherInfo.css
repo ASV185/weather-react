@@ -1,9 +1,6 @@
 .WeatherInfo .temperature {
   font-weight: bold;
   line-height: 64px;
-  font-family: 'Playfair Display SC',
-  serif;
-  font-size: 95px;
 }
 
 .WeatherInfo .unit {

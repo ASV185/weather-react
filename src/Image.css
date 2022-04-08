@@ -2,7 +2,8 @@
 Footer {
   margin: 0;
   display: block;
-  font-family: "Castoro", serif;
+  font-family: 'Playfair Display SC',
+  serif;
   color: #000000;
   font-weight: bold;
   text-align: center;
